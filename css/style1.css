@@ -12,9 +12,18 @@ footer {
 	vertical-align: middle;
 }
 
+.par1 {
+	display: block;
+	max-width: 450px;
+	max-height: 450px;
+	margin: auto;
+	width: 40%;
+}
+
 .text1 {
 	padding: 1%;
 }
+
 .fix {
 	overflow: auto;
 	width: unset;
@@ -47,8 +56,8 @@ footer {
 .side {
 	float: right;
 	max-height: 350px;
-	width: 50%;
-	vertical-align: middle;
+	width: 45%;
+	display: block;
 }
 
 .text {
@@ -80,10 +89,28 @@ footer {
 		margin: auto;
 		width: 40%;
 	}
+
+	.par1 {
+		width: 90%;
+	}
+
 	.text {
 		display: block;
 		float: unset;
 		margin: auto;
-		width: 85%;
+		width: 60%;
+		margin-top: 2%;
+	}
+
+	body {
+		font-size: 18px;
+	}
+
+	p {
+		display: block;
+		float: unset;
+		margin: auto;
+		width: 60%;
+		margin-top: 2%;
 	}
 }
